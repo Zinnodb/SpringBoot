@@ -3,12 +3,13 @@ package com.light.common.utils;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import com.ruoyi.project.system.menu.domain.Menu;
+
+import com.light.project.system.menu.domain.Menu;
 
 /**
  * 权限数据处理
  * 
- * @author ruoyi
+ * @author 
  */
 public class TreeUtils
 {

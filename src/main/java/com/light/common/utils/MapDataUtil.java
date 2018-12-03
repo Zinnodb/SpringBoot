@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils;
+package com.light.common.utils;
 
 import java.util.HashMap;
 import java.util.Iterator;

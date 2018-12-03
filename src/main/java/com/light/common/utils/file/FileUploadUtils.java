@@ -6,6 +6,9 @@ import org.apache.shiro.crypto.hash.Md5Hash;
 import org.apache.tomcat.util.http.fileupload.FileUploadBase.FileSizeLimitExceededException;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.light.common.exception.file.FileNameLengthLimitExceededException;
+import com.light.framework.config.SpringBootConfig;
+
 /**
  * 文件上传工具类
  * 
@@ -21,7 +24,7 @@ public class FileUploadUtils
     /**
      * 默认上传的地址
      */
-    private static String defaultBaseDir = RuoYiConfig.getProfile();
+    private static String defaultBaseDir = SpringBootConfig.getProfile();
 
     /**
      * 默认的文件名最大长度

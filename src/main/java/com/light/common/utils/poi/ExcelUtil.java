@@ -35,6 +35,9 @@ import org.apache.poi.ss.util.CellRangeAddressList;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.light.common.utils.StringUtils;
+import com.light.framework.aspectj.lang.annotation.Excel;
+import com.light.framework.config.SpringBootConfig;
 import com.light.framework.web.domain.AjaxResult;
 /**
  * Excel相关处理
@@ -469,7 +472,7 @@ public class ExcelUtil<T>
      */
     public String getAbsoluteFile(String filename)
     {
-        String downloadPath = RuoYiConfig.getDownloadPath() + filename;
+        String downloadPath = SpringBootConfig.getDownloadPath() + filename;
         File desc = new File(downloadPath);
         if (!desc.getParentFile().exists())
         {

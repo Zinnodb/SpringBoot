@@ -1,8 +1,9 @@
 package com.light.common.utils.security;
 
 import org.apache.commons.lang3.StringUtils;
-import com.ruoyi.common.constant.PermissionConstants;
-import com.ruoyi.common.utils.MessageUtils;
+
+import com.light.common.constant.PermissionConstants;
+import com.light.common.utils.MessageUtils;
 
 /**
  * permission 工具类

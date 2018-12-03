@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils;
+package com.light.common.utils;
 
 import com.alibaba.fastjson.JSON;
 import org.apache.shiro.SecurityUtils;

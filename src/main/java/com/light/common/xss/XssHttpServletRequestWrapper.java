@@ -1,4 +1,4 @@
-package com.ruoyi.common.xss;
+package com.light.common.xss;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletRequestWrapper;

@@ -1,7 +1,8 @@
-package com.ruoyi.common.utils;
+package com.light.common.utils;
 
 import org.springframework.context.MessageSource;
-import com.ruoyi.common.utils.spring.SpringUtils;
+
+import com.light.common.utils.spring.SpringUtils;
 
 /**
  * 获取i18n资源文件

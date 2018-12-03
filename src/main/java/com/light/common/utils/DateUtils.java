@@ -1,4 +1,4 @@
-package com.ruoyi.common.utils;
+package com.light.common.utils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

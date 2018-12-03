@@ -1,8 +1,8 @@
-package com.ruoyi.common.utils;
+package com.light.common.utils;
 
 import com.alibaba.fastjson.JSONObject;
-import com.ruoyi.common.utils.http.HttpUtils;
-import com.ruoyi.framework.config.RuoYiConfig;
+import com.light.common.utils.http.HttpUtils;
+import com.light.framework.config.SpringBootConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,7 +25,7 @@ public class AddressUtils
         {
             return "内网IP";
         }
-        if (RuoYiConfig.isAddressEnabled())
+        if (SpringBootConfig.isAddressEnabled())
         {
             String rspStr = HttpUtils.sendPost(IP_URL, "ip=" + ip);
             if (StringUtils.isEmpty(rspStr))
